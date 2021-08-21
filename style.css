@@ -10,7 +10,7 @@ body {
     padding: 4px;
     border-radius: 5px;
     max-width: 360px;
-    min-height: 95vh;
+    min-height: 92vh;
     font-family: Tahoma, sans-serif;
     display: grid;
 }
