@@ -1,16 +1,20 @@
 body {
     background-color: blanchedalmond;
     user-select: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
+    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 4px;
     background-color: rgb(73, 21, 73);
     padding: 4px;
     border-radius: 5px;
     max-width: 360px;
-    min-height: 95vh;
     font-family: Tahoma, sans-serif;
     display: grid;
 }
@@ -96,4 +100,10 @@ input {
 }
 .zero:hover {
     border-radius: 30px;
+}
+
+@media (max-width: 400px) {
+    .container {
+       min-height: 90vh;
+    }
 }
